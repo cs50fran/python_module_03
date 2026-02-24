@@ -24,7 +24,7 @@ def create_backpack() -> dict:
                 print(f"Invalid argument format: {sys.argv[i]}")
                 return None
 
-        return (inventory)
+    return inventory
 
 
 def see_backpack() -> None:
